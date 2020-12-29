@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 40%;
+	    background-color:floralwhite;
+            text-align: center;
+            margin-left: 30%;
+            border: 1px solid red;
+        }
+        .btn{
+            width: 50px;
+            height: 25px;
+            color: blueviolet;
+            border: 1px solid green ;
+            background: transparent;
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+        
+        h1{margin-left: 42%;}
+    </style>
+</head>
+<body style="background-color: powderblue;" >
+    
+
+<form action="done.html" method="post">
+<caption ><h1> Registration form</h1></caption>
+<input type="image" src="wings.jpg"alt="oops! something went worng" class="style1"/>
+    <table class="style1">
+        <tr>
+            <td>
+                Name :</td>
+            <td>
+                <input id="Text1" type="text" autofocus="autofocus" pattern="(^[A-Za-z]{1,1})+([a-z]{1,9})" placeholder="Enter ur name here" required="required" /></td>
+        </tr>
+        <tr>
+            <td>
+                Phone Number :</td>
+            <td>
+                <input type="text" pattern="(^[0-9]{1,10})" required /></td>
+        </tr>
+        <tr>
+            <td>
+                Email Id :</td>
+            <td>
+                <input type="email" /></td>
+        </tr>
+        <tr>
+            <td>
+                Age : </td>
+            <td>
+                <input type="number" min="18" max="30" /></td>
+        </tr>
+        <tr>
+            <td>
+                BirthDate :</td>
+            <td>
+                <input type="date" /></td>
+        </tr>
+        <tr>
+            <td>
+                Favourite Color :</td>
+            <td>
+                <input type="color" /></td>
+        </tr>
+	<tr>
+	    <td>Select Qualification :</td>
+            <td>
+		<input list="Edu">
+		<datalist id="Edu">
+		<option value="BE"> 
+		<option value="BCOm">
+		<option value="BSc">
+		<option value="MBA">
+		<option value="MCs">
+        <option value="MBA">
+		</datalist> 
+	    </td>
+	</tr>
+
+        <tr>
+            <td>
+                Course Start Date :</td>
+            <td>
+                <input type="date" /></td>
+        </tr>
+<tr>
+    <td></td>
+    <br><br>
+            <td>
+                <input type="submit" class="btn" /></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
